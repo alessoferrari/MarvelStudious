@@ -1,4 +1,4 @@
-
+/* write js here  */
 
 function searchMarvelCharacters (searchTerm, limit=100, offset=1) {
   const apiBaseURL = "http://gateway.marvel.com/v1/public"

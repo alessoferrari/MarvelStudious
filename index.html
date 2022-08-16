@@ -4,17 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Marvel Gallery</title>
 </head>
 <body>
-<div>Marvel Studios Characters</div>
-<ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
-<div class="myclass"></div><imput id="foo"></imput>
-<input type="datetime" name="" id="">
+  <h1>Marvel Character Search Gallery</h1>
+
+  <form id="search-form">
+      <input type="search" name="search" placeholder="Name starts with..." autofocus>
+      <button>Search</button>
+  </form>
+
+  <main id="gallery"></main>
+
+  <script src="./library/md5.js"></script>
+  <script src="./view.js"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
