@@ -1,9 +1,10 @@
 // ES6 Modules (ECMAScript 6, 2015...ES2022)
+//This code was made for professor Dmg as a proyect before graduation I'm testing it already created all files from 0 now stating on recode and redone it on my own style and Api //
+import { renderGalleryView } from "./view.js"
 
-// GET (download)
-// POST (upload)
-                                           // query parameters
-// http://gateway.marvel.com/v1/public/comics?ts=1&apikey=1234&hash=ffd275c5130566a2916217b101f26150
+const CORSProxy = "https://corsproxy.io/?"
+
+
 
 console.log("LOG #1")
 
