@@ -3,7 +3,7 @@ const galleryElement = document.querySelector("#gallery")
 function renderGalleryView (characters) {
     const characterCards = characters.map(toCharacterView)
     galleryElement.replaceChildren(...characterCards)
-    // replaceChildren() is our alternative to append() when we want to replace the contents of the parent element, instead of adding new elements
+    // replaceChildren() is our alternative to append() when we want to replace the contents of the parent element, instead of adding new elements //..
 }
 
 function toCharacterView (character) {
