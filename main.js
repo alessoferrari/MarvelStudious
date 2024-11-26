@@ -1,5 +1,5 @@
-// ES6 Modules (ECMAScript 6, 2015...ES2022)
-//This code was made for professor Dmg as a proyect before graduation I'm testing it already created all files from 0 now stating on recode and redone it on my own style and Api //
+ // ES6 Modules (ECMAScript 6, 2015...ES2022)
+ // This code was made for professor Dmg as a proyect before graduation I'm testing it already created all files from 0 now stating on recode and redone it on my own style and Api //
 import { renderGalleryView } from "./view.js"
 
 const CORSProxy = "https://corsproxy.io/?"
