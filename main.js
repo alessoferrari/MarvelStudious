@@ -80,5 +80,4 @@ function outInvalidImages (character) {
         && path.includes("4c002e0305708") === false
 }
 
-
 handleSearchInput("spider")
